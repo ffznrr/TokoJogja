@@ -24,6 +24,7 @@ Aplikasi **Toko Jogja** dibangun menggunakan PHP Native dan membutuhkan server l
 
    ```bash
    cd C:\xampp\htdocs\nama_folder_aplikasi
+   ```
 
 ### 3. Konfigurasi Database
 
@@ -61,3 +62,4 @@ if ($koneksi->connect_error) {
     die("Koneksi ke database gagal: " . $koneksi->connect_error);
 }
 ?>
+```
