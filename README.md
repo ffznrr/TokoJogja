@@ -63,3 +63,18 @@ if ($koneksi->connect_error) {
 }
 ?>
 ```
+
+Catatan: Jika nama database, username, atau password berbeda, ubah sesuai dengan konfigurasi server lokal Anda.
+
+### 5. Akses Aplikasi melalui Browser
+
+Setelah semua langkah di atas selesai, buka browser dan akses aplikasi dengan URL berikut:
+```php
+http://localhost/nama_folder_aplikasi
+```
+
+Gantilah nama_folder_aplikasi dengan nama folder tempat aplikasi Toko Jogja disalin.
+
+Troubleshooting
+Error Koneksi Database: Jika terdapat error yang berkaitan dengan koneksi database, pastikan nama database, username, dan password di file koneksi.php sudah benar.
+File Tidak Ditemukan: Jika halaman tidak dapat diakses, pastikan folder aplikasi ada di dalam htdocs dan URL yang Anda masukkan di browser sudah benar.
